@@ -32,12 +32,12 @@ public class GrassPokemon extends Pokemon
 
     public void grow()
     {
-        System.out.println(getName()+"grows a nice "+ getPlantType());
+        System.out.println(getName()+" grows a nice "+ getPlantType());
     }
 
     public void grassAttack()
     {
-        System.out.println("watch out!"+ getName()+" attacks with"+getPlantAttack() );
+        System.out.println("watch out! "+ getName()+" attacks with "+getPlantAttack() );
     }
     @Override// grass pokemon make their own sound
     public void speak()

@@ -4,8 +4,6 @@ public class ElectricPokemon extends Pokemon
     private String lightningShape;// elcetric pokemon can shoot lightning with various shapes
 
     //constructor
-
-
     public ElectricPokemon(String name, String sound, int voltage, String lightningShape) {
         super(name, sound);
         this.voltage = voltage;
@@ -32,7 +30,7 @@ public class ElectricPokemon extends Pokemon
 
     public void zap()
     {
-        System.out.println( getName()+" shoots a lightning" +getLightningShape()+" with voltage "+getVoltage());
+        System.out.println( getName()+" zaps a lightning" +getLightningShape()+" with voltage "+getVoltage());
     }
 
     public void spark()

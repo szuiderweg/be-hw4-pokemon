@@ -5,7 +5,7 @@ public class WaterPokemon extends Pokemon
 
     public WaterPokemon(String name, String sound, int swimSpeed, String liquid) {
         super(name, sound);
-        this.swimSpeed= WaterPokemon.this.swimSpeed;
+        this.swimSpeed= swimSpeed;
         this.liquid = liquid;
     }
     //getter and setter of swimSpeed

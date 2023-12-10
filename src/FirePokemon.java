@@ -33,7 +33,7 @@ public class FirePokemon extends Pokemon
 
     public void glow()// another special firepower
     {
-        System.out.println(getName()+ " glows a pretty" +getFlameColor()+" light with power" +getIllumination());
+        System.out.println(getName()+ " glows a pretty " +getFlameColor()+" light with power " +getIllumination());
     }
 
     @Override// fire pokemon make their own sound
