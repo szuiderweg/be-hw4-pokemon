@@ -33,7 +33,7 @@ public class Pokemon {
     //actions
     public void speak()
     {
-        System.out.println(name+" says something");
+        System.out.println(name+" says "+sound);
     }
 
     public void dance()
