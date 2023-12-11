@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        //create pokemon named Poeki using the pokemon superclass
-        Pokemon poekie = new Pokemon("Poeki","poek!");
-        //run both methods of the superclass
-       poekie.speak();
-       poekie.dance();
+//bonus assigment 1: converted Pokemonc class to an abstract class
+// since the superclass is now an abstract class, it can not be used to create an instance of a generic Pokemon anymore
+        //        //create pokemon named Poeki using the pokemon superclass
+//        Pokemon poekie = new Pokemon("Poeki","poek!");
+//        //run both methods of the superclass
+//       poekie.speak();
+//       poekie.dance();
 
         System.out.println("~~~~~~~~");
        FirePokemon lucy = new FirePokemon("Lucy", "Woosh!", "red", 12);

@@ -41,4 +41,9 @@ public class WaterPokemon extends Pokemon
     public void speak() {
         System.out.println(getName()+" bubbles "+getSound());
     }
+
+    public void dance()
+    {
+        System.out.println(getName()+" dances a flowy dance");
+    }
 }

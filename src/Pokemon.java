@@ -1,4 +1,6 @@
-public class Pokemon {
+//bonus 1 & 2: changed Pokemon class into an abstract class.  the speak-method is also made abstract.
+public abstract class Pokemon
+{
     private String name;
     private String sound;
 
@@ -36,8 +38,8 @@ public class Pokemon {
         System.out.println(getName()+" says "+getSound());
     }
 
-    public void dance()
-    {
-        System.out.println(getName()+" dances a cute little dance");
-    }
+    public abstract void dance();//bonus 2: implement an abstract method
+//    {
+//        System.out.println(getName()+" dances a cute little dance");
+//    }
 }

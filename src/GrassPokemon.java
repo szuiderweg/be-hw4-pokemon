@@ -44,4 +44,9 @@ public class GrassPokemon extends Pokemon
     {
         System.out.println(getName()+" rustles "+getSound());
     }
+
+    public void dance()
+    {
+        System.out.println(getName()+" dances a grassy dance");
+    }
 }

@@ -42,5 +42,9 @@ public class FirePokemon extends Pokemon
         System.out.println(getName()+" roars "+getSound());
     }
 
+    public void dance()
+    {
+        System.out.println(getName()+" dances a fiery dance");
+    }
 
 }

@@ -44,4 +44,9 @@ public class ElectricPokemon extends Pokemon
         System.out.println(getName()+" crackles "+getSound());
     }
 
+    public void dance()
+    {
+        System.out.println(getName()+" dances an electric dance");
+    }
+
 }
